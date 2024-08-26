@@ -1,0 +1,121 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<title> Info de Filmes</title>
+</head>
+
+
+<body>
+
+
+
+<h1> É Assim que acaba  </h1>
+
+
+<p> Adaptação do livro viral de Collen Hoover estreiou dia 08/08/2024 </p>
+
+<p> Confira o trailer completo:</p>     
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/x4D3WHlquus?si=RGb-h-PZj66Et68Y&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+<p>O elenco conta com nomes como: </p>
+<ul>
+    
+<li> Blake Lively (Lily)</li>
+<li> Justin Baldoni (Ryle)</li>
+<li> Brandon Sklenar (Atlas)</li>
+<li> Jenny Slate (Allysa) </li>
+
+
+</ul>
+
+<h2> Do que se trata o filme?</h2>
+
+<p> O filme "É assim que acaba, inspirado no livro da autora Collen Hoover, aborda uma história arrasadora, mas também inovadora, que não tem medo de discutir temas como abuso e violência doméstica. Uma narrativa inesquecível sobre um amor que custa caro demais. </p>
+
+<h3>  Como o filme aborda a violência doméstica? </h3>
+<p>A violência é retratada com uma série de abusos de seu ex marido ao abusar de Lily fisicamente, por meio de socos, empurrões e até mesmo uma tentativa de estupro, sendo uma parte extremamente pesada da trama. </p>
+<h4> Qual a mensagem que pode se aprender com o filme? </h4>
+<p> O filme mostra a realidade das vítimas de abuso doméstico, busca alertar e ajudar as vitimas, ensinando que é possível ter uma vida melhor ao reconhecer quando é hora de se afastar de situações tóxicas e buscar o que é saudável e construtivo para si mesmo.</p>
+<h5>Avalições: </h5>
+<P>"É assim que acaba" estreou com uma nota acima da média de 59% de aprovação no famoso site "Rotten Tomatoes" e com uma nota de 94% de aprovação da audiência.</P>
+
+
+
+
+<h4> Nos conte aqui sobre a sua opinião a respeito do filme: </h4>
+
+<form action="/enviar_formulario" method="post">
+    <div class="container">
+      
+    </div>
+    
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome"><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email"><br><br>
+
+    <label for="Notas">Nota:</label>
+    <select id="nota" name="Nota">
+
+        <option value="0">0</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+
+   
+    </select>
+
+<br>
+<br>
+
+    <label for="mensagem">Justificativa:</label><br>
+    <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br><br>
+
+    <input type="submit" value="Enviar">
+</form>
+
+
+
+
+
+<h4>Top Filmes que voce deve conferir se gostou deste filme:</h4>
+
+<ol>
+     <li> The Notebook</li>
+    <li> Me Before You</li>
+<li> A Star Is Born</li>
+
+
+</ol>
+<h4>Representação das cores características do livro: </h4>
+
+<div class="container">
+    
+    <svg width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="purple" stroke-width="4" fill="purple" />
+    </svg>
+</div>
+
+<br>
+
+<div class="container">
+  
+    <canvas id="meuCanvas" width="200" height="100" style="border:1px solid #ff00f2;"></canvas>
+    <script>
+        var c = document.getElementById("meuCanvas");
+        var ctx = c.getContext("2d");
+        ctx.fillStyle = "#ff00f2";
+        ctx.fillRect(0,0, c.width,c.height);
+    </script>
+</div>
+</body>
+
+</html>
