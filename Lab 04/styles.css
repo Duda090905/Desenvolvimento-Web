@@ -1,65 +1,121 @@
+/* Estilo geral para o corpo da página */
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
     background-color: #f4f4f4;
-    line-height: 1.6;
-}
-
-header {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style-type: none;
     margin: 0;
     padding: 0;
+    color: #333;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 15px;
+
+h2 {
+
+
+text-align: center;
+font-weight: bold;
+
+
 }
 
-nav ul li a {
+
+
+
+
+
+
+#image-container {
+
+
+display:flex;
+flex-direction:column;
+align-items: center;
+justify-content:center;
+margin-top:20px;
+gap: 30px;
+}
+
+#image-container {
+
+margin-bottom: 20px;
+max-width: 100%;
+height: auto;
+
+
+
+}
+
+
+
+/* Cabeçalho */
+#header {
+    background-color: #3b3b3b;
     color: white;
-    text-decoration: none;
-    text-align: center;
-    line-height: 1.6;
-    margin-right: 15px;
-}
-
-main {
     padding: 20px;
     text-align: center;
 }
 
-image-container {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
+/* Navegação */
+#nav {
+    background-color: #3b3b3b;
+    padding: 10px;
+    text-align: center;
+}
+
+#nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#nav a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo Principal */
+#main-content {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-footer {
-    background-color: #333;
+/* Estilo para os rótulos e campos do formulário */
+form label {
+    font-weight: bold;
+}
+
+form input[type="text"],
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #3b3b3b;
     color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+form button:hover {
+    background-color: #3b3b3b;
+}
+
+/* Rodapé */
+#footer {
+    background-color: #3b3b3b;
+    color: rgb(255, 255, 255);
     text-align: center;
-    padding: 10px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-}
-
-h1, h2 {
-    margin-bottom: 20px;
-    text-align: center;
-}
-
-p {
-    margin-bottom: 20px;
+    padding:10px;
 }
